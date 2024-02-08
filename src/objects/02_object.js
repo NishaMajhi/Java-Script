@@ -54,9 +54,9 @@ Object.entries(jsUser1).forEach((entry) => {
 
 
 //-----------hasOwnProperty() = to check property exists in the object---------------------
-console.log(jsUser1.hasOwnProperty('i'));
+console.log("hasOwnProperty->", jsUser1.hasOwnProperty('i'));
 
 
 //----------destructuring
 const { id: userId } = jsUser1
-console.log(userId)
+// console.log(userId)

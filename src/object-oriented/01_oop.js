@@ -31,7 +31,7 @@ function setUserData(name, age) {  //it is kind of constructor that create a new
 }
 
 
-//if we dont use new keyword here then userOne data will be overright by userTwo's data
+//if we dont use new keyword here then userOne data will be overwrite by userTwo's data
 const userOne = new setUserData("Nisha", 21);
 const userTwo = new setUserData("Neha", 19)
 // userOne.greeting()
